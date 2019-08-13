@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".StartActivity">
 
+    <!-- Logo Holder -->
     <ImageView
         android:id="@+id/ivLogo"
         android:layout_width="0dp"
@@ -18,6 +19,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:srcCompat="@android:color/black" />
 
+    <!-- LogIn Button -->
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="0dp"
@@ -28,10 +30,13 @@
         android:text="@string/logIn"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
+    <!-- Create Button -->
     <Button
         android:id="@+id/btnCreate"
         android:layout_width="0dp"
@@ -41,7 +46,7 @@
         android:layout_marginEnd="16dp"
         android:background="@drawable/button_outline"
         android:text="@string/createAccount"
-        android:textColor="@color/logIn"
+        android:textColor="@color/purple_0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLogin" />

@@ -3,12 +3,12 @@
     android:shape="rectangle"
     android:padding="5dp">
 
-    <solid android:color="@color/logIn"/> <!-- this one is ths color of the Rounded Button -->
+    <solid android:color="@color/purple_0"/> <!-- this one is ths color of the Rounded Button -->
 
     <corners
-        android:bottomRightRadius="5dp"
-        android:bottomLeftRadius="5dp"
-        android:topLeftRadius="5dp"
-        android:topRightRadius="5dp"/>
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"/>
 
 </shape>

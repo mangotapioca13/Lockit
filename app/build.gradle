@@ -30,4 +30,7 @@ dependencies {
     // Parse SDK
     implementation 'com.parse.bolts:bolts-android:1.4.0'
     implementation 'com.parse:parse-android:1.17.3'
+
+    // TextInputLayout
+    implementation 'com.google.android.material:material:1.0.0'
 }
