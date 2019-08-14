@@ -13,7 +13,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.lockit.R;
 
-public class FragmentCharms extends Fragment {
+public class CharmsFragment extends Fragment {
 
     private Toolbar toolbar;
 
@@ -34,7 +34,7 @@ public class FragmentCharms extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         toolbar = (Toolbar) view.findViewById(R.id.toolbar);
-        toolbar.setTitle("Settings");
+        toolbar.setTitle("Charms");
         ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
     }
 }

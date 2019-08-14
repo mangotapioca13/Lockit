@@ -23,7 +23,6 @@ public class StartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
 
-        ParseUser.logOut();
         ParseUser currUser = ParseUser.getCurrentUser();
 
         // If there is a current user, then bring them to their home
@@ -31,6 +30,7 @@ public class StartActivity extends AppCompatActivity {
         if (currUser != null) {
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
+            finish();
         } else {
             btnLogin = (Button) findViewById(R.id.btnLogin);
             btnCreate = (Button) findViewById(R.id.btnCreate);
@@ -40,6 +40,7 @@ public class StartActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     Intent intent = new Intent(StartActivity.this, LoginActivity.class);
                     startActivity(intent);
+                    finish();
                 }
             });
 
@@ -48,6 +49,7 @@ public class StartActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     Intent intent = new Intent(StartActivity.this, CreateActivity.class);
                     startActivity(intent);
+                    finish();
                 }
             });
         }

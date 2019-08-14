@@ -13,7 +13,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.lockit.R;
 
-public class FragmentHome extends Fragment {
+public class HomeFragment extends Fragment {
 
     private Toolbar toolbar;
 
