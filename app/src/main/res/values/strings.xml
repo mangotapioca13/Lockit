@@ -2,7 +2,14 @@
     <string name="app_name">Lockit</string>
     <string name="logIn">Log In</string>
     <string name="createAccount">Create new account</string>
+    <string name="createLabel">Create Account</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
 
     <string name="username">Username:</string>
     <string name="password">Password:</string>
+    <string name="confirmPassword">Confirm Password:</string>
+    <string name="firstName">First Name:</string>
+    <string name="lastName">Last Name:</string>
+    <string name="email">Email:</string>
 </resources>
