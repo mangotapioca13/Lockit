@@ -7,6 +7,7 @@
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
     <color name="transparent">#00000000</color>
+
     <color name="purple_0">#7a71c9</color> <!-- Toolbar color -->
     <color name="purple_1">#aaa7ce</color> <!-- menuItem not selected color -->
     <color name="purple_2">#201b47</color> <!-- menuItem selected color -->

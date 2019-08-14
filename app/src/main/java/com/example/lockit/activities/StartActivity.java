@@ -1,7 +1,7 @@
 // Angela Liu
 // Lockit 08122019
 
-package com.example.lockit;
+package com.example.lockit.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.lockit.R;
 import com.parse.ParseUser;
 
 public class StartActivity extends AppCompatActivity {
