@@ -22,7 +22,6 @@ public class StartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
 
-        ParseUser.logOut();
         ParseUser currUser = ParseUser.getCurrentUser();
 
         // If there is a current user, then bring them to their home
@@ -45,7 +44,8 @@ public class StartActivity extends AppCompatActivity {
             btnCreate.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-
+                    Intent intent = new Intent(StartActivity.this, CreateActivity.class);
+                    startActivity(intent);
                 }
             });
         }
