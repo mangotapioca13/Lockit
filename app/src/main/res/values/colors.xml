@@ -8,6 +8,31 @@
     <color name="black">#000000</color>
     <color name="transparent">#00000000</color>
 
+    <color name="red_0">#ff9391</color> <!-- Toolbar color -->
+    <color name="red_1">#ffcdcc</color> <!-- menuItem not selected color -->
+    <color name="red_2">#430100</color> <!-- menuItem selected color -->
+    <color name="red_3">#1fff9391</color> <!-- bnv color -->
+
+    <color name="orange_0">#eaa04b</color> <!-- Toolbar color -->
+    <color name="orange_1">#f4cea3</color> <!-- menuItem not selected color -->
+    <color name="orange_2">#422708</color> <!-- menuItem selected color -->
+    <color name="orange_3">#1feaa04b</color> <!-- bnv color -->
+
+    <color name="yellow_0">#e1c81b</color> <!-- Toolbar color -->
+    <color name="yellow_1">#f6eeb6</color> <!-- menuItem not selected color -->
+    <color name="yellow_2">#433c08</color> <!-- menuItem selected color -->
+    <color name="yellow_3">#1fe1c81b</color> <!-- bnv color -->
+
+    <color name="green_0">#91dd77</color> <!-- Toolbar color -->
+    <color name="green_1">#d0f1c4</color> <!-- menuItem not selected color -->
+    <color name="green_2">#17340d</color> <!-- menuItem selected color -->
+    <color name="green_3">#1f91dd77</color> <!-- bnv color -->
+
+    <color name="blue_0">#79c5f0</color> <!-- Toolbar color -->
+    <color name="blue_1">#aedcf6</color> <!-- menuItem not selected color -->
+    <color name="blue_2">#07293c</color> <!-- menuItem selected color -->
+    <color name="blue_3">#1f79c5f0</color> <!-- bnv color -->
+
     <color name="purple_0">#7a71c9</color> <!-- Toolbar color -->
     <color name="purple_1">#aaa7ce</color> <!-- menuItem not selected color -->
     <color name="purple_2">#201b47</color> <!-- menuItem selected color -->
