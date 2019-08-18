@@ -44,6 +44,7 @@ public class SettingsFragment extends Fragment {
         ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
     }
 
+    // Following two methods are used for menu items in the toolbar
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         inflater.inflate(R.menu.menu_settings, menu);
