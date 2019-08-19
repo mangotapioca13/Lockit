@@ -2,15 +2,22 @@
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content" >
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    card_view:cardBackgroundColor="#FFFFFF"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:cardUseCompatPadding="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/ivAppLogo"
+            android:id="@+id/ivOrgLogo"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginStart="12dp"
@@ -22,24 +29,26 @@
             app:srcCompat="@android:color/black" />
 
         <TextView
-            android:id="@+id/tvAppName"
+            android:id="@+id/tvOrgName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="16dp"
-            android:text="App name:"
-            app:layout_constraintStart_toEndOf="@+id/ivAppLogo"
+            android:text="@string/orgName"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:layout_constraintStart_toEndOf="@+id/ivOrgLogo"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/tvUsername"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="4dp"
             android:text="@string/username"
-            app:layout_constraintStart_toEndOf="@+id/ivAppLogo"
-            app:layout_constraintTop_toBottomOf="@+id/tvAppName" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintStart_toEndOf="@+id/ivOrgLogo"
+            app:layout_constraintTop_toBottomOf="@+id/tvOrgName" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.cardview.widget.CardView>
