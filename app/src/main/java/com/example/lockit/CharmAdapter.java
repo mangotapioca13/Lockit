@@ -35,7 +35,7 @@ public class CharmAdapter extends RecyclerView.Adapter<CharmAdapter.ViewHolder> 
 
     // With the data at the given position, bind it to the holder
     @Override
-    public void onBindViewHolder(@NonNull CharmAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Charm charm = charmsList.get(position);
         holder.bind(charm);
     }
@@ -54,9 +54,9 @@ public class CharmAdapter extends RecyclerView.Adapter<CharmAdapter.ViewHolder> 
         public ViewHolder(@NonNull View view) {
             super(view);
 
-            tvOrgName = view.findViewById(R.id.tvOrgName);
-            tvUsername = view.findViewById(R.id.tvUsername);
-            ivOrgLogo = view.findViewById(R.id.ivOrgLogo);
+            tvOrgName = (TextView) view.findViewById(R.id.tvOrgName);
+            tvUsername = (TextView) view.findViewById(R.id.tvUsername);
+            ivOrgLogo = (ImageView) view.findViewById(R.id.ivOrgLogo);
 
             view.setOnClickListener((View.OnClickListener)this);
         }
@@ -69,7 +69,7 @@ public class CharmAdapter extends RecyclerView.Adapter<CharmAdapter.ViewHolder> 
         @Override
         public void onClick(View view) {
             Toast.makeText(context, "CLICKED!", Toast.LENGTH_SHORT).show();
-            // should have option of viewing the password for the selected item
+            // TODO - should have option of viewing the password for the selected item
         }
     }
 }
